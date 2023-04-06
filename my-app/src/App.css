@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.c {
+  background-color: #fff;
+  width: 410px;
+  padding: 1.2rem 2.5rem;
+  border-radius: .5rem;
+  box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.2);
+}
+h3{
+  text-align: center;
+  margin: 1rem 0;
+}
+.mail,.pwd{
+  width: 100%;
+  padding: 10px;
+  margin: .5rem 0 1.2rem;
+  border-radius: .3rem;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+.submit{
+  background-color: #339bfc;
+  color: #fff;
+  border: none;
+  border-radius: .3rem;
+  width: 100%;
+  padding: .5rem 0;
+  font-size: 1rem;
+  cursor: pointer;
+}
+p{
+  margin: 1rem 0;
+}
+a{
+  color: #339bfc;
+}
