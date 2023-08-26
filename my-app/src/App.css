@@ -21,7 +21,7 @@ h3{
   text-align: center;
   margin: 1rem 0;
 }
-.mail,.pwd{
+input{
   width: 100%;
   padding: 10px;
   margin: .5rem 0 1.2rem;
